@@ -1,8 +1,9 @@
-name: generate bundles
 
+name: generate bundles
 on:
   schedule:
-    - cron: '0 0 * * *'
+    #- cron: '0 0 * * *'
+    - cron: '61 25 32 13 8'  # Invalid time/date (there's no 25th hour, 32nd day, or 13th month)
   workflow_dispatch:
 
 jobs:
